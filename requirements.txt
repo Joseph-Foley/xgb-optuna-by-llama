@@ -3,3 +3,7 @@ matplotlib
 seaborn
 xgboost
 optuna
+sklearn
+scikit-learn
+plotly
+ipywidgets>=7.6
