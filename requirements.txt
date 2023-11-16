@@ -7,3 +7,6 @@ sklearn
 scikit-learn
 plotly
 ipywidgets>=7.6
+shap
+fastapi
+uvicorn
