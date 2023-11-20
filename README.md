@@ -11,7 +11,10 @@ I’ll be using the model at phind.com and Telco data taken from [IBM](https://w
 
 I pasted my prompts and the output into a series of Jupyter notebooks. The “raw” directory contains the exact output from the LLM, even if the code didn’t work. The “refined” directory contains notebooks where I intervened to either fix or enhance the LLM outputs. I’d say only 10 – 15% of the code is from my own interventions. That’s a pretty impressive showing from Code Llama.
 
-<center> ![](Images/Meta.PNG?raw=true)  ![](Images/phind.PNG?raw=true) </center>
+<p align="center">
+ <img src="Images/Meta.PNG?raw=true"/>
+ <img src="Images/phind.PNG?raw=true"/>
+</p>
 
 ### Conclusion
 
@@ -28,3 +31,4 @@ Code Llama performed extremely well. It generated the code quick and most of the
 None of these downsides are deal breakers but here’s the best part, Code Llama is aware of its own short comings. It will ask the user for clarification or it will ask you to input the names for particular variables (e.g. columns names in your unique dataframe). It will even suggest where to take the project next to make it more complete.
 
 Overall its an impressive showing. I’m sure in the near future we’ll even have LLMs that are aware of your data and thus keep it in mind when generating code for it.
+
