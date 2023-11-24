@@ -7,7 +7,7 @@ I’ve taken an interest in Code Llama because its open source. I can freely run
 
 It was about time I gave it a go by applying it to a typical data science work flow. I wanted to see how well it could tackle a basic EDA, modeling and deployment.
 
-I’ll be using the model at phind.com and Telco data taken from [IBM](https://www.ibm.com/communities/analytics/watson-analytics-blog/predictive-insights-in-the-telco-customer-churn-data-set/). This will be a classic customer churn problem, so we’re talking classification modelling. I didn’t want to give it something too easy, so I thought id ask it to model that data with a mix of libraries. XGBoost as the model with Optuna acting as the optimiser.
+I’ll be using the model at [phind](https://www.phind.com/) and Telco data taken from [IBM](https://www.ibm.com/communities/analytics/watson-analytics-blog/predictive-insights-in-the-telco-customer-churn-data-set/). This will be a classic customer churn problem, so we’re talking classification modelling. I didn’t want to give it something too easy, so I thought id ask it to model that data with a mix of libraries. XGBoost as the model with Optuna acting as the optimiser.
 
 I pasted my prompts and the output into a series of Jupyter notebooks. The “raw” directory contains the exact output from the LLM, even if the code didn’t work. The “refined” directory contains notebooks where I intervened to either fix or enhance the LLM outputs. I’d say only 10 – 15% of the code is from my own interventions. That’s a pretty impressive showing from Code Llama.
 

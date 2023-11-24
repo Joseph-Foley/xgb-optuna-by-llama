@@ -10,3 +10,5 @@ ipywidgets>=7.6
 shap
 fastapi
 uvicorn
+pytest
+httpx
